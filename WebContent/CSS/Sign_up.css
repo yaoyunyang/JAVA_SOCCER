@@ -3,23 +3,17 @@
 	flex-direction:column;
 	flex-wrap:wrap;
 	justify-content:center;
-	flex-basis:20em;
+	line-height: 3em;
+	
 }
 list_word{
-<<<<<<< HEAD
-	line-height:2em;
-=======
->>>>>>> f09829511e7aa32f1468e7048740f4e085bf1965
 	text-align:right;
 }
 .huge{
 	display:flex;
 	flex-direction:row;
 	justify-content:center;
-	margin:auto;
 	flex-basis:2em;
-<<<<<<< HEAD
-=======
 }
 .ta{
 	border:0px;
@@ -27,6 +21,8 @@ list_word{
 	border-radius:5px;
 }
 .cb{
-	
->>>>>>> f09829511e7aa32f1468e7048740f4e085bf1965
+	margin-top: 2em;
+}
+.whole_cb{
+	margin:0;
 }

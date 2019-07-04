@@ -6,7 +6,7 @@ list_word{
 	font-family:Microsoft Yahei;
 	font-weight:bold;
 	text-align: justify;
-	line-height: 2em;
+	line-height: 3em;
 	border-radius: 6px;
 }/*正文字体格式*/
 input:focus{
