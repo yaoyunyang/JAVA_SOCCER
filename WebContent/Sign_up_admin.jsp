@@ -6,6 +6,19 @@
         <link rel="stylesheet" type="text/css" href="./CSS/soccer.css"  media="all" />
         <link rel="stylesheet" type="text/css" href="./CSS/Sign_up.css"  media="all" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">
+	function validate() {
+		var user_name = document.getElementsByName("user_name");
+		var password = document.getElementsByName("password");
+		var repassword = document.getElementsByName("repassword");
+		var user_type = document.getElementsByName("user_type");
+		var gender = document.getElementsByName("gender");
+		var date_of_birth = document.getElementsByName("date_of_birth");
+		var habit_football = document.getElementsByName("football");
+		var habit_drinking = document.getElementsByName("drinking");
+		var habit_girl = document.getElementsByName("girl");
+	}
+</script>
 <title>管理员注册</title>
 <style type="text/css">
 body{

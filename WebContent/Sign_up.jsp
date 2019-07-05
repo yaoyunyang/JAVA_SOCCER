@@ -19,7 +19,6 @@
 		var habit_girl = document.getElementsByName("girl");
 		if (password != repassword) {
 			alert("两次输入密码不一致！");
-
 		}
 		if (habit_football == NULL && habit_drinking == NULL
 				&& habit_girl == NULL) {
