@@ -21,6 +21,7 @@
 	display:block;
 	float:left;
 }
+
 .one_column img{
 	vertical-align:middle;
 	margin-left:10px;
@@ -57,13 +58,13 @@
 	margin:20px 0 20px 0;
 	letter-spacing:40px;
 	padding-left:40px;
+
 }
 .right_top button:hover
 {
 	background-color: #00d11f
 }
 .right_top button:active {
-  /* background-color: #00d11f; */
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -84,19 +85,19 @@
 	font-size:30px;
 	font-weight:bold;
 	padding:6px 0 25px;
-	color:#5F5F61;
+	color:#222d29;
 }
 .right_middle td{
 	line-height:30px;
 }
 .right_middle table{
 	margin:0 20px;
-	color:#5F5F61;
+	color:#222d29;
 }
 .qiumen{
 	position:absolute;
 	left:128px;
-	top:0px;
+	top:22px;
 	z-index:-1
 }
 .yimolanse{
@@ -118,6 +119,7 @@
 	left:0px;
 	top:2px;
 }
+
 .click_logo_css span{
 	display:block;
 	position:absolute;
@@ -132,4 +134,8 @@
 	cellpadding:"0";
 	cellspacing:"1";
 	border-bottom:1px solid #5F5F61;
+}
+#Star{
+	margin-left:10px;
+	margin-top:2px;
 }

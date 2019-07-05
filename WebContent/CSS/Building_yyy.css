@@ -1,0 +1,214 @@
+
+.bg_image{
+	background-image:url("../image/Building_yyy/building_bg_image.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	position:relative;
+	
+}
+.bg_image:after{
+    content: "";
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background: inherit;
+    filter: blur(6px);
+    z-index: -10;
+}
+
+/* 标题栏样式 */
+.header{
+	border-bottom:1px solid rgba(255,255,255,.5);
+	border-top:1px solid rgba(255,255,255,.5);
+}
+.title_block{
+	width:650px;
+	text-align:left;
+	height:40px;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+}
+.reply_block{
+	width:150px;
+	height:40px;
+	vertical-align:middle;
+}
+.reply_block img{
+	float:right;
+	margin-top:2px;
+	margin-right:10px;
+}
+
+
+.back_block{
+	width:450px;
+	border-left:1px solid rgba(255,255,255,.5);
+	text-align:right;
+	height:40px;
+	
+}
+
+
+
+/* 论坛信息 */
+.forum_info{
+	width:450px;
+	vertical-align: top;
+	color:white;
+}
+.right_middle_plus {
+	background-color:rgba(255,255,255,0.3);
+	border-radius:20px;
+	
+}
+/* 返回主页面按钮样式 */
+a.back_button{
+	border: 1px solid rgba(255,255,255,.5);
+    padding: 10px 20px;
+    margin: 0 20px;
+    border-radius: 2px;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+a {
+    text-decoration: none;
+}
+/* 回复按钮样式  */
+a.reply_button{
+	border: 1px solid rgba(255,255,255,.5);
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 2px;
+    color: white;
+    font-size: 8px;
+    text-transform: uppercase;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    float:left;
+}
+
+/* 帖子文字内容样式 */
+.user_info{
+	width:200px;
+	border-right:1px solid rgba(255,255,255,.5);
+	border-top:1px solid rgba(255,255,255,.5);
+	text-align:center;
+	vertical-align:top;
+	
+}
+.user_info img{
+	width:100px;
+	height:100px;
+	margin-top:20px;
+	border:4px double rgba(255,255,255,.5);
+	
+}
+.user_info p{
+	color:#5fcaad;
+	font-size:20px;
+}
+
+.post_info{
+	width:564px;
+	border-right:1px solid rgba(255,255,255,.5);
+	border-top:1px solid rgba(255,255,255,.5);
+	vertical-align:top;
+	padding:20px 20px 0 20px;
+}
+.post_image img{
+	width:560px;
+	margin-top:10px;
+}
+.post_text{
+	line-height: 24px;
+    font-size: 14px;
+    overflow-wrap: break-word;  /* 根据宽度自动换行 */
+    overflow: hidden;  /*  多的隐藏 */
+    color:white;
+    
+}
+.post_date_reply{
+	float:right;
+	margin:0 6px 0 0;
+}
+.tail_info{
+	display: inline-block;
+    color: rgb(225,255,255);
+    margin: 0px 4px 4px 0;
+}
+
+
+/* 论坛信息中的用户信息 */
+.all_info{
+	width:245px;
+	padding-top:20px;
+}
+.avatar img{
+	width:130px;
+	height:130px;
+	border-style:inset;
+	margin-top:20px;
+	margin-right:10px;
+}
+.avatar{
+	margin-right:10px;
+}
+.nickname{
+	color:white;
+	font-size:24px;
+	display:inline-block;
+	margin-left:20px;
+}
+.sexy img{
+	vertical-align:top;
+	margin-left:-3px;
+}
+.create_time{
+	color:white;
+	font-size:12px;
+	display:inline-block;
+	margin-left:6px;
+}
+.hobby,.signature{
+	line-height:30px;
+	padding-left:20px;
+	font-size:10px;
+	overflow-wrap: break-word;
+}
+
+/* 底部回复框样式 */
+.tail_reply{
+	border-right:1px solid rgba(255,255,255,.5);
+	border-left:1px solid rgba(255,255,255,.5);
+	border-bottom:1px solid rgba(255,255,255,.5);
+}
+.content{
+	-web-kit-appearance:none;
+  	-moz-appearance: none;
+ 	outline:0;
+ 	background-color:rgba(155,155,155,0.5);
+}
+.submit{
+  box-sizing: border-box;
+  border-radius:4px;
+  border:1px solid #c8cccf;
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+  display:block;
+  color:white;
+  outline:0;
+  padding:4px 8px;
+  margin-top:5px;
+  background-color:rgba(255,255,255,0);
+}
+.submit:active{
+	ox-shadow: 0 5px #666;
+    transform: scale(0.9,0.9);
+}

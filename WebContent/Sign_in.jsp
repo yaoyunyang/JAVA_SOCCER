@@ -18,6 +18,6 @@ body {
 <div><list_word>用户名：</list_word><input type="text" name = user_name value="${user_name}"></div>
 <div style ="text-indent:1em"><list_word>密码：</list_word> <input type="password" name="password" value="${password}"></div> 
 <div style ="text-indent:4em"><list_word><input type="submit"value ='提交'><input type="reset" value="重置"><list_word></div> 
-		<a href=Main.jsp class="nav">返回</a>
+		<a href=Main_yyy.jsp class="nav">返回</a>
 </body>
 </html>

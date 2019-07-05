@@ -77,7 +77,7 @@ body{
                     <input type="submit" value='提交'> 
                     <input type="reset" value="重置" >
             </center></list_word>
-            <a href=Main.jsp class="nav"><center style="line-height: 2em;padding-left:4em">返回</a>&nbsp;<a href=Sign_up.jsp class="nav">我要注册用户</center></a>
+            <a href=Main_yyy.jsp class="nav"><center style="line-height: 2em;padding-left:4em">返回</a>&nbsp;<a href=Sign_up.jsp class="nav">我要注册用户</center></a>
     </form>
 </body>
 </html>
