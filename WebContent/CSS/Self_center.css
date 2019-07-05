@@ -1,0 +1,89 @@
+h1,h2,h3,h4,h5,h6 {
+    color: white; font-family:Microsoft Yahei ; font-weight :bold;background-color:rgba(0,0,0,0.3)
+} /* 1到6级标题统一格式：白色，微软雅黑，加粗，文字背景黑色透明度0.3*/
+list_word{
+	color:white;
+	font-family:Microsoft Yahei;
+	font-weight:bold;
+	text-align: justify;
+	line-height: 3em;
+	border-radius: 6px;
+}/*正文字体格式*/
+input:focus{
+	background: rgba(255,255,255,0.3);
+}/*文本框被选中的时候透明显示*/
+p{
+	color:white;
+	font-family:Microsoft Yahei;
+	font-weight:bold;
+	line-height: 1em;
+}
+a:link{
+	text-decoration:none;
+	color:lightblue;
+}
+a:visited{
+	text-decoration:none;
+	color:lightblue;
+}
+a:hover{
+	text-decoration:underline;
+	color:lightblue;
+}
+a:active{
+	text-decoration:underline;
+	color:#FC0;
+}
+
+.nav
+{
+	display: flex;
+	margin-left: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-family:Microsoft Yahei;
+	font-weight:bold;
+	text-align: justify;
+	background: 0;
+	justify-content: space-around;
+}/*nav类格式*/
+.column
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.headtitle{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-inline-width: 1px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+a{
+	display: flex;
+	margin-left: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-family:Microsoft Yahei;
+	font-weight:bold;
+	text-align: justify;
+	line-height: 2em;
+}
+.settitle
+{
+	line-height: 2em;
+	width:70em;
+	background-color: (255,255,255,0.5)
+}
+.headimg
+{
+	height: 50%;
+}

@@ -19,7 +19,6 @@
 		var habit_girl = document.getElementsByName("girl");
 		if (password != repassword) {
 			alert("两次输入密码不一致！");
-
 		}
 		if (habit_football == NULL && habit_drinking == NULL
 				&& habit_girl == NULL) {
@@ -74,7 +73,7 @@ body {
 			</div>
 			<list_word> <center  style = "padding-left:1em ;line-height:2em"><input type="submit" value='提交'> 
 	<input type="reset" value="重置" > </center> </list_word>
-	<div class="huge"><a href=Main.jsp class="nav"><center style="line-height:2em;padding-left: 5em">返回</a> &nbsp;<a href=Sign_up_admin.jsp class="nav" style="line-height:2em">我要当管理员！</center></a></div>
+	<div class="huge"><a href=Main_yyy.jsp class="nav"><center style="line-height:2em;padding-left: 5em">返回</a> &nbsp;<a href=Sign_up_admin.jsp class="nav" style="line-height:2em">我要当管理员！</center></a></div>
 </form>
 </body>
 </html>
