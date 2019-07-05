@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>懂球帝</title>
 <link href="CSS/Main_yyy.css" type="text/css" rel="stylesheet" />
 <link href="CSS/Building_yyy.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="js_yyy/jquery-3.4.1.js"></script>
@@ -89,7 +89,7 @@
 				</td>
 				<!--  论坛信息-->
 				<td class="forum_info">
-					<div align="center" style="margin-bottom: 40px">
+					<div align="center" style="margin-bottom: 20px">
 						<table>
 							<tr>
 								<td class="avatar" width="140px"><img src="" /></td>

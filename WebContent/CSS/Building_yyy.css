@@ -58,6 +58,8 @@
 .forum_info{
 	width:450px;
 	vertical-align: top;
+	border-right:1px solid rgba(255,255,255,.5);
+	border-top:1px solid rgba(255,255,255,.5);
 	color:white;
 }
 .right_middle_plus {

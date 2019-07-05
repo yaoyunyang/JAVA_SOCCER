@@ -4,9 +4,39 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link href="CSS/Building_yyy.css" type="text/css" rel="stylesheet" />
 <link href="CSS/Main_yyy.css" type="text/css" rel="stylesheet" />
+<link href="CSS/Login_in_success.css" type="text/css" rel="stylesheet" />
 <title>懂球帝</title>
 <script type="text/javascript" src="js_yyy/collect.js"></script>
+<script type="text/javascript" src="js_yyy/jquery-3.4.1.js"></script>
+<script>
+	$(document).ready(function() {
+		/* 返回主界面的按钮jquery */
+		$("#post_btn").hover(function() {
+			$("#post_btn").css({
+				"background-color" : "white",
+				"color" : "#5F5F61"
+			});
+		}, function() {
+			$("#post_btn").css({
+				"background-color" : "rgba(255,255,255,0)",
+				"color" : "white"
+			});
+		});
+		$("#center_btn").hover(function() {
+			$("#center_btn").css({
+				"background-color" : "white",
+				"color" : "#5F5F61"
+			});
+		}, function() {
+			$("#center_btn").css({
+				"background-color" : "rgba(255,255,255,0)",
+				"color" : "white"
+			});
+		});
+	});
+</script>
 </head>
 <body class="bg_image">
 <div align="center">
@@ -244,10 +274,23 @@
 					</div>
 				</td>
 				<!--  第三列-->
-				<td style="vertical-align: top">
-					<div class="right_top">
-						<button onclick="window.location='Login_in_success.jsp'">登陆</button>
-						<button onclick="window.location='Sign_up.jsp'">注册</button>
+				<td  class="forum_info">
+					<div align="center" style="margin-bottom: 20px">
+						<table>
+							<tr>
+								<td class="avatar" width="140px"><img src="" /></td>
+								<td class="all_info"><span class="nickname">姚运洋</span> <span
+									class="sexy"><img src="image/Building_yyy/boy.png" /></span> <span
+									class="create_time">2019-8-1</span> <br> <span
+									class="hobby">- hobby: xxx . xxx . xxx</span> <br> <span
+									class="signature">-
+										时尚同学今年要创建一个urban队！哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</span></td>
+							</tr>
+						</table>
+						<div class="two_btn">
+						<a href="" class="post_btn" id="post_btn">发布新帖</a>
+						<a href="Self_center.jsp" class="center_btn" id="center_btn">个人中心</a>
+						</div>
 					</div>
 					<hr>
 					<div class="right_middle" align="center">
