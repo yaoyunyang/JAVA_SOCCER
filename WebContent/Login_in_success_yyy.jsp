@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <link href="CSS/Building_yyy.css" type="text/css" rel="stylesheet" />
 <link href="CSS/Main_yyy.css" type="text/css" rel="stylesheet" />
-<link href="CSS/Login_in_success.css" type="text/css" rel="stylesheet" />
+<link href="CSS/Login_in_success_yyy.css" type="text/css" rel="stylesheet" />
 <title>懂球帝</title>
 <script type="text/javascript" src="js_yyy/collect.js"></script>
 <script type="text/javascript" src="js_yyy/jquery-3.4.1.js"></script>
@@ -47,7 +47,7 @@
 			<tr>
 				<td class="one_column"><span>精品</span><span>兴趣</span></td>
 				<td class="one_column">看帖</td>
-				<td class="one_column"><input type="text" placeholder="搜索"
+				<td class="one_column"><input type="text" placeholder="搜索" style="outline:0"
 					name="keyword" /><img src="image/Main_yyy/search_logo.png" /></td>
 			</tr>
 			<tr>

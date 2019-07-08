@@ -17,7 +17,7 @@
 			<tr>
 				<td class="one_column"><span>精品</span><span>兴趣</span></td>
 				<td class="one_column">看帖</td>
-				<td class="one_column"><input type="text" placeholder="搜索"
+				<td class="one_column"><input type="text" placeholder="搜索" style="outline:0"
 					name="keyword" /><img src="image/Main_yyy/search_logo.png" /></td>
 			</tr>
 			<tr>
