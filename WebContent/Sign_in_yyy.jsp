@@ -39,7 +39,7 @@
 <body class="bg_image">
 	<div align="center" class="back_ground">
 		<form action="/JAVA_socer/accountController" method="post">
-			<table border="1px">
+			<table border="0px">
 				<tr>
 					<td><span class="font_style">用户名</span></td>
 					<td><input type="text" name="username" /></td>

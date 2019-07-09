@@ -246,7 +246,7 @@
 				<!--  第三列-->
 				<td style="vertical-align: top">
 					<div class="right_top">
-						<button onclick="window.location='Login_in_success.jsp'">登陆</button>
+						<button onclick="window.location='Sign_in_yyy.jsp'">登陆</button>
 						<button onclick="window.location='Sign_up.jsp'">注册</button>
 					</div>
 					<hr>
@@ -262,7 +262,7 @@
 							<tr>
 								<td style="word-wrap: break-word">论坛宗旨：<img
 									src="image/Main_yyy/yimolvse.png" class="yimolanse" /></td>
-								<td><font size="2px">我们是一个爽肤水开发技术健身房景胜看来飞机失联飞机宽松九分裤涉及法律就是飞机上看飞机失联就发生了纠纷是克己复礼肌肤轮廓设计李开复睡觉了健身卡</font></td>
+								<td><font size="2px">懂球帝提供专业足球资讯、足球视频、免费足球直播等内容,一切为了中国足球迷服务。懂不懂足球,都用懂球帝。</font></td>
 							</tr>
 							<tr>
 								<td>联系我们：<img src="image/Main_yyy/yimolvse.png"
