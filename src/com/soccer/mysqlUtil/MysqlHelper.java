@@ -9,10 +9,10 @@ public class MysqlHelper {
     
     private static String url = "jdbc:mysql://localhost:3306/soccer_blog?useSSL=false&serverTimezone=UTC";
     private static String driver = "com.mysql.cj.jdbc.Driver";
-    private static String user = "yyy";
-    private static String password = "sanwai1222";
+    private static String user = "yuziliusql";
+    private static String password = "123456789";
     
-//    加载驱动
+//    鍔犺浇椹卞姩
     static {
     	try {
     		Class.forName(driver);
@@ -21,7 +21,7 @@ public class MysqlHelper {
     	}
     }
     
-//    得到连接
+//    寰楀埌杩炴帴
     public static Connection getConnection() {
     	try {
     		ct = DriverManager.getConnection(url,user,password);
@@ -31,12 +31,12 @@ public class MysqlHelper {
     	return ct;
     }
     
-//    分页问题
+//    鍒嗛〉闂
     public static ResultSet executeQuery2(){
     	return null;
     }
     
-//    调用查询语句 又返回值
+//    璋冪敤鏌ヨ璇彞 鍙堣繑鍥炲��
     public static CallableStatement callPro2
     (String mysql, String[] inparameters, Integer[] outparameters) {
     	try {
@@ -47,7 +47,7 @@ public class MysqlHelper {
     				cs.setObject(i+1, inparameters[i]);
     			}
     			
-//    			给out参数赋值
+//    			缁檕ut鍙傛暟璧嬪��
     			if(outparameters!=null) {
     				for(int i=0;i<outparameters.length;i++) {
     					cs.registerOutParameter(inparameters.length+i+1,outparameters[i]);
@@ -64,7 +64,7 @@ public class MysqlHelper {
     	return cs;
     }
     
-//    调用mysql查询语句 无返回值
+//    璋冪敤mysql鏌ヨ璇彞 鏃犺繑鍥炲��
     public static void callPro1(String mysql,String[] parameters) throws SQLException {
     	try {
     		ct = getConnection();
@@ -84,7 +84,7 @@ public class MysqlHelper {
     	}
     }
     
-//    统一的select查询语句
+//    缁熶竴鐨剆elect鏌ヨ璇彞
     public static ResultSet executeQuery(String mysql, String[] parameters) throws SQLException {
     	try {
     		ct = getConnection();
@@ -104,7 +104,7 @@ public class MysqlHelper {
     	return rs;
     }
     
-//    关闭资源
+//    鍏抽棴璧勬簮
     public static void close(ResultSet rs, Statement ps, Connection ct) {
     	if(rs!=null) {
     		try {
