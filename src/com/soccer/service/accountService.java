@@ -4,7 +4,7 @@ import com.soccer.domain.Account;
 import com.soccer.mysqlUtil.MysqlHelper;
 import java.sql.*;
 
-public class accountService {
+public class AccountService {
 
 	
 //	验证用户是否合法

@@ -7,10 +7,10 @@
 <title>个人中心</title>
 <style type="text/css">
     body{
-            background-image:url('./image/Self_center/Self_center.jpg');
+            background-image:url('./image/Self_center/Self_center.jpg'); 
             background-attachment: fixed;
         }
-    </style>
+</style>
 </head>
 <body>
     <h1><center>个人中心</center></h1>
