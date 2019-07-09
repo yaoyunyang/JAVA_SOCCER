@@ -4,12 +4,20 @@
 	background-attachment:fixed;
 }
 .back_ground{
-	height:100%;
+	width: 540px;
+    height: 380px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.5);
+    padding: 12px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    margin-left: -270px;
+    top: 50%;
+    margin-top: -190px;
 }
-.font_style{
-	font-size:24px;
-	letter-spacing:1em;
-	color:white;
+.blank{
+	height:60px;
 }
 .submit{
   box-sizing: border-box;
@@ -20,18 +28,41 @@
   display:block;
   color:white;
   outline:0;
-  padding:4px 8px;
-  margin-top:5px;
   background-color:rgba(255,255,255,0);
+  width: 286px;
+  height: 40px;
+  font-size: 14px;
+  margin: 0 auto 20px;
 }
+.plus{	
+  line-height: 40px;
+}
+
 a {
     text-decoration: none;
 }
-input{
-	-web-kit-appearance:none;
-  	-moz-appearance: none;
- 	outline:0;
- 	background-color:rgba(155,155,155,0.5);
- 	width:200px;
- 	height:40px;
+.input_css{
+	width: 286px;
+    height: 40px;
+    box-sizing: border-box;
+    /* margin-bottom: 14px; */
+    margin: 0 auto 24px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    position: relative;
+    
 }
+.input_css input{
+    border-style: none;
+    padding: 14px 10px;
+    box-sizing: border-box;
+    height: 100%;
+    width:100%;
+    background-color: transparent;
+    outline:0;
+ }
+ input::-webkit-input-placeholder {
+      color: rgba(0,0,0,0.7);
+      
+ }
+

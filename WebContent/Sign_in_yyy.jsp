@@ -38,30 +38,20 @@
 </head>
 <body class="bg_image">
 	<div align="center" class="back_ground">
-		<form action="/JAVA_socer/accountController" method="post">
-			<table border="0px">
-				<tr>
-					<td><span class="font_style">用户名</span></td>
-					<td><input type="text" name="username" /></td>
-				</tr>
-				<tr>
-					<td><span class="font_style">密码</span></td>
-					<td><input type="password" name="password" /></td>
-				</tr>
-				<tr>
-				<td>
-				<checkbox>
-				<select value="cookies">记住密码</select>
-				</checkox>
-				</td>
-				<td></td>
-				</tr>
-				<tr>
-					<td><input type="submit" name="submit" value="登陆"
-						class="submit" id="submit" /></td>
-					<td><a href="Main_yyy.jsp" class="submit" id="back"> 返回</a></td>
-				</tr>
-			</table>
+		<form action="/JAVA_socer/AccountController" method="post">
+			<div class="blank"></div>
+			<div class="input_css">
+			<input type="text" name="username" placeholder="用户名" />
+			</div>
+			<div class="input_css">
+			<input type="password" name="password" placeholder="密码" />
+			</div>
+			<div>
+			<input type="submit" name="submit" value="登陆" class="submit" id="submit" /> 
+			</div>
+			<div>
+			<a href="Main_yyy.jsp" class="submit plus" id="back">返回</a>
+			</div>
 		</form>
 	</div>
 </body>
