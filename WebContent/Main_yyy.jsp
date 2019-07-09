@@ -246,7 +246,7 @@
 				<!--  第三列-->
 				<td style="vertical-align: top">
 					<div class="right_top">
-						<button onclick="window.location='Login_in_success.jsp'">登陆</button>
+						<button onclick="window.location='Sign_in_yyy.jsp'">登陆</button>
 						<button onclick="window.location='Sign_up.jsp'">注册</button>
 					</div>
 					<hr>

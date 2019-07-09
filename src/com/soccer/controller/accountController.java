@@ -1,6 +1,8 @@
 package com.soccer.controller;
 
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -8,16 +10,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class accountController
+ * Servlet implementation class AccountController
  */
-@WebServlet("/accountController")
-public class accountController extends HttpServlet {
+@WebServlet("/AccountController")
+public class AccountController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public accountController() {
+    public AccountController() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,7 +29,14 @@ public class accountController extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		request.setCharacterEncoding("UTF-8");
+		response.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html; charset=UTF-8");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
+		System.out.println("username="+username+";password="+password);
+		request.getRequestDispatcher("/Main_yyy.jsp").forward(request, response);
 	}
 
 	/**

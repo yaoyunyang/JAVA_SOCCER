@@ -21,6 +21,9 @@ public class Account {
 		this.prcture_src = prcture_src;
 		this.intruduce = intruduce;
 	}
+	public Account() {
+		super();
+	}
 	public String getId_name() {
 		return id_name;
 	}
