@@ -1,8 +1,5 @@
 .bg_image{
 	background-image:url("../image/Main_yyy/sign_up.jpg");
-	background-repeat:no-repeat;
-	background-size:100% 100%;
-	background-attachment:fixed;
 }
 .top_logo{
 	margin:20px 0;
@@ -12,9 +9,7 @@
 	width:400px;
 	height:40px;
 	font-size:20px;
-	background-color:#91ebb9;
-	text-align:center;
-	
+	background-image: linear-gradient(to-top,#2E8B57,#FFF)
 }
 .one_column span{
 	width:200px;
@@ -49,7 +44,7 @@
 .right_top button{
 	height:50px;
 	width:260px;
-	background-color:#00e717;
+	background-color:#3CB371;
 	border-radius:15px;
 	box-shadow: 0 9px #999;
 	font-size: 24px;
@@ -62,7 +57,7 @@
 }
 .right_top button:hover
 {
-	background-color: #00d11f
+	background-color: #3CB371
 }
 .right_top button:active {
   box-shadow: 0 5px #666;

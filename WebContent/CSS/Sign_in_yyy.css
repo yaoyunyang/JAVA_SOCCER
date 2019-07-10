@@ -1,10 +1,10 @@
 .bg_image{
-	background-image:url("../image/Main_yyy/sign_up.jpg");
-	background-size:110% 110%;
+	background-image:url("../image/Main.jpg");
+	background-size:110% ;
 	background-attachment:fixed;
 }
 .back_ground{
-	width: 540px;
+	  width: 540px;
     height: 380px;
     border-radius: 10px;
     background: rgba(255,255,255,0.5);

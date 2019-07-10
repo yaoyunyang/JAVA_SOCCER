@@ -37,6 +37,7 @@
 </script>
 </head>
 <body class="bg_image">
+	<h1><center style="color:white">登录</center></h1>
 	<div align="center" class="back_ground">
 		<form action="/JAVA_socer/AccountController" method="post">
 			<div class="blank"></div>

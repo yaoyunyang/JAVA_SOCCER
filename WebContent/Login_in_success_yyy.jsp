@@ -38,7 +38,7 @@
 	});
 </script>
 </head>
-<body class="bg_image">
+<body style="background-image:url(image/Main_yyy/sign_up.jpg)">
 <div align="center">
 		<img src="image/Main_yyy/logo.png" class="top_logo" />
 	</div>
